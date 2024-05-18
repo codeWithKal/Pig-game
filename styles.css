@@ -1,0 +1,112 @@
+body {
+  background-color: black;
+}
+.game-title {
+  position: absolute;
+  top: -45%;
+  left: 35%;
+  font-size: 5rem;
+  color: white;
+}
+.game-plate {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  height: 50%;
+  width: 50%;
+  background-color: rgb(131, 100, 100);
+  border: 5px solid black;
+  box-sizing: content-box;
+  /* border-radius: 20%; */
+}
+.sections {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+img {
+  position: absolute;
+  top: 30%;
+  left: 43%;
+  /* display: none; */
+}
+.player {
+  height: 100%;
+  width: 50%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+}
+.current-score {
+  font-size: 5rem;
+}
+.first-player {
+  background-color: blue;
+}
+button {
+  position: absolute;
+  z-index: 99;
+  border-radius: 25%;
+  padding: 10px;
+}
+button:hover {
+  background-color: rgb(93, 150, 199);
+  border: none;
+}
+.new-game {
+  top: 55px;
+  left: 45%;
+}
+.roll {
+  top: 80%;
+  left: 45%;
+}
+.hold {
+  top: 90%;
+  left: 43%;
+}
+.score {
+  background-color: rgb(201, 192, 192);
+  height: 10%;
+  width: 10%;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  font-size: xx-large;
+  border-radius: 50%;
+}
+.fp-score {
+  top: -25%;
+  left: 15%;
+}
+.sp-score {
+  top: -35%;
+  left: 75%;
+}
+.winner-window {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(orange, red);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.winner-msg {
+  text-align: center;
+  position: relative;
+  top: 10%;
+  left: 20%;
+  color: white;
+  font-size: 5rem;
+  width: 50%;
+}
+.close {
+  position: absolute;
+  top: 1%;
+  left: 95%;
+}
+.hidden {
+  display: none;
+}
